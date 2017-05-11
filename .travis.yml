@@ -9,4 +9,4 @@ before_install:
   - docker build . -t test/hs
 
 script:
-  - docker run -it test/hs "echo \"Hello Worl!\" "
+  - docker run -it test/hs /bin/bash
