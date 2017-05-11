@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-ADD Dockerfile
+ADD Dockerfile /

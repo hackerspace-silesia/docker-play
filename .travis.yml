@@ -6,4 +6,7 @@ services:
   - docker
 
 before_install:
-  - docker build .
+  - docker build . -t test/hs
+
+script:
+  - docker run -it test/hs "echo \"Hello Worl!\" "
